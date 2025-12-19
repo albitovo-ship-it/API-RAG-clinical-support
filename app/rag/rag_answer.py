@@ -63,7 +63,6 @@ def RAG_answer(user_question: str) -> str:
     La respuesta debe tener como máximo 300 caracteres.
     La respuesta debe contener la respuesta y concluir sobre la misma dentro del largo máximo estipulado. No deben terminar de manera abrupta y con ideas sin terminar.
     La respuesta debe ser en idioma español sin importar el idioma en el que se haga la pregunta.
-    Si te preguntan la fuente de la información, el nombre del protocolo se va a encontrar siempre al inicio.
     [REGLAS DE SEGURIDAD]
     No generes información sensible, privada o especulativa.
     No cites datos cuya fuente no sea el contexto provisto.
